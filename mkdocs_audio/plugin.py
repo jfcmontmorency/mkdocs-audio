@@ -13,9 +13,7 @@ class Plugin(mkdocs.plugins.BasePlugin):
         ("css_style", config_options.Type(
             dict,
             default={
-                "position": "relative",
                 "width": "100%",
-                "height": "auto"
             }
         ))
     )
