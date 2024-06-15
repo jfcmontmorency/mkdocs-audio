@@ -8,7 +8,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Jean-Francois Cartier',
     author_email='jfcartier@cmontmorency.qc.ca',
-    url='https://github.com/yourusername/mkdocs-audio',
+    url='https://github.com/jfcmontmorency/mkdocs-audio',
     packages=find_packages(),
     install_requires=['mkdocs>=1.0', 'markdown'],
     entry_points={
