@@ -10,7 +10,7 @@ setup(
     author_email='jfcartier@cmontmorency.qc.ca',
     url='https://github.com/jfcmontmorency/mkdocs-audio',
     packages=find_packages(),
-    install_requires=['mkdocs>=1.0', 'markdown'],
+    install_requires=['mkdocs>=1.4.2', 'markdown'],
     entry_points={
         'mkdocs.plugins': [
             'audio = mkdocs_audio.plugin:AudioPlugin',
