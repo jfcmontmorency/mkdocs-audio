@@ -1,3 +1,3 @@
 # Usage
 
-![type:audio](./audio/sample_audio.mp3)
+`![type:audio](./audio/sample_audio.mp3)`
