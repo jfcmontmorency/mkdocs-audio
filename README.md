@@ -1,5 +1,14 @@
-# Usage
+## Install
 
-`![type:audio](./audio/sample_audio.mp3)`
+``` yml title=mkdocs.yml
+plugins:
+  - mkdocs-audio
+```
+
+## Usage
+
+``` markdown
+![type:audio](./audio/sample_audio.mp3)
+```
 
 Based on https://pypi.org/project/mkdocs-video
