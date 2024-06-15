@@ -1,24 +1,28 @@
 from setuptools import setup, find_packages
 
+with open('README.md', encoding='utf-8') as f:
+    readme = f.read()
+
 setup(
     name='mkdocs-audio',
-    version='0.1',
-    description='MkDocs plugin to embed audio files',
-    long_description='A plugin for MkDocs to embed audio files using a custom syntax.',
-    long_description_content_type='text/markdown',
+    version='0.0.1',
     author='Jean-Francois Cartier',
     author_email='jfcartier@cmontmorency.qc.ca',
     url='https://github.com/jfcmontmorency/mkdocs-audio',
+    description='MkDocs plugin to embed audio files',
+    long_description=readme,
+    long_description_content_type='text/markdown',
+    license='MIT',
     packages=find_packages(),
-    install_requires=['mkdocs>=1.4.2', 'markdown'],
+    install_requires=[
+        'mkdocs>=1.4.2', 
+        'lxml>=4.7.0'
+    ],
+    include_package_data=True,
+    python_requires='>=3.6',
     entry_points={
         'mkdocs.plugins': [
-            'audio = mkdocs_audio.plugin:AudioPlugin',
+            'mkdocs-audio = mkdocs_audio.plugin:Plugin',
         ]
-    },
-    classifiers=[
-        'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
-    ],
+    }
 )

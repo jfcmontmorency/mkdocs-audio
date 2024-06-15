@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+mkdocs_audio/__init__.py
+mkdocs_audio/plugin.py
+mkdocs_audio.egg-info/PKG-INFO
+mkdocs_audio.egg-info/SOURCES.txt
+mkdocs_audio.egg-info/dependency_links.txt
+mkdocs_audio.egg-info/entry_points.txt
+mkdocs_audio.egg-info/requires.txt
+mkdocs_audio.egg-info/top_level.txt
